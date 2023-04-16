@@ -1,16 +1,62 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <form method="post">
+       
+        <label for="" name="Name" id="name"> Name</label>
+        <input placeholder="Name" required>
+       <br><br>
+        <label for="" name="Email" id="email"> Eamil</label>
+        <input placeholder="Email" required>
+       <br><br>
+        <div>
+        <label for="" name="gender">Gender</label>
+        <input type="radio" name="gender" required id="gender_f">
+        <label>Female</label>
+        <input type="radio" name="gender" required id="gender_m">
+        <label>Male</label>
+        </div>
+        <br>
+        <div>
+        <label for="" name="car brands" cars>Choose your car</label>
+        <select required>
+           
+            <option>BMW</option>
+            <option>Audi</option>
+            <option>Mercedez</option>
+        </select>
+    </div>
+    <br>
+      <div>
+        <label for="" name="Age" id="age">Age</label>
+        <input type="number" placeholder="Enter Age">
+      </div>
+      <br>
+      <div>
+        <label for="" name="dob" id="dob">Date of Birth</label>
+        <input type="number" placeholder="Enter Date of Birth">
+      </div>
+      <br>
+      <div>
+        <label for="" name="phoneNumber" id="tel">Phone Number</label>
+        <input type="number" placeholder="xxx-xxx-xxxx">
+      </div>
+      <br>
+      <div>
+        <label for="" name="password" id="password">Password</label>
+        <input placeholder="Enter Strong Password">
+      </div>
+      <br>
+      <input type="checkbox" placeholder=" I agree to the TOS." id="tos">
+      <label for="" name="condition"> I agree to the TOS.</label>
+      <br><br>
+      <button type="submit">Submit</button>
+    </form>
 </body>
-
 </html>
